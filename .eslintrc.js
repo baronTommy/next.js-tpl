@@ -10,6 +10,9 @@ module.exports = {
     "next/core-web-vitals",
     "prettier", // 最後に書く
   ],
+  rules: {
+    complexity: ["error", 10],
+  },
   overrides: [
     {
       files: [".eslintrc.js", "*.config.js"],
