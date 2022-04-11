@@ -8855,9 +8855,9 @@ rx-lite@*, rx-lite@^4.0.8:
   integrity sha1-Cx4Rr4vESDbwSmQH6S2kJGe3lEQ=
 
 rxjs@^7.2.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.5.0.tgz#9424fbefb42bec9a8fb53a53fc64b3e5ecf90587"
-  integrity sha512-fuCKAfFawVYX0pyFlETtYnXI+5iiY9Dftgk+VdgeOq+Qyi9ZDWckHZRDaXRt5WCNbbLkmAheoSGDiceyCIKNZA==
+  version "7.5.5"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.5.5.tgz#2ebad89af0f560f460ad5cc4213219e1f7dd4e9f"
+  integrity sha512-sy+H0pQofO95VDmFLzyaw9xNJU4KTRSwQIGM6+iG3SypAtCiLDzpeG8sJrNCWn2Up9km+KhkvTdbkrdy+yzZdw==
   dependencies:
     tslib "^2.1.0"
 
