@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@semantic-release/git": "10.0.1",
-    "@stylelint/postcss-css-in-js": "0.37.2",
+    "@stylelint/postcss-css-in-js": "0.38.0",
     "@testing-library/react": "12.1.5",
     "@testing-library/react-hooks": "8.0.1",
     "@types/jest": "27.0.2",
