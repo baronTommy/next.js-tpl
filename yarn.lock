@@ -107,13 +107,6 @@
     "@jridgewell/trace-mapping" "^0.3.17"
     jsesc "^2.5.1"
 
-"@babel/helper-annotate-as-pure@^7.18.6":
-  version "7.18.6"
-  resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.18.6.tgz#eaa49f6f80d5a33f9a5dd2276e6d6e451be0a6bb"
-  integrity sha512-duORpUiYrEpzKIop6iNbjnwKLAKnJ47csTyRACyEmWj0QdUrm5aqNJGHSSEQSUAvNW0ojX0dOmK9dZduvkfeXA==
-  dependencies:
-    "@babel/types" "^7.18.6"
-
 "@babel/helper-annotate-as-pure@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.22.5.tgz#e7f06737b197d580a01edf75d97e2c8be99d3882"
@@ -191,15 +184,7 @@
     "@babel/helper-split-export-declaration" "^7.22.6"
     semver "^6.3.1"
 
-"@babel/helper-create-regexp-features-plugin@^7.18.6":
-  version "7.21.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.21.0.tgz#53ff78472e5ce10a52664272a239787107603ebb"
-  integrity sha512-N+LaFW/auRSWdx7SHD/HiARwXQju1vXTW4fKr4u5SgBUTm51OKEjKgj+cs00ggW3kEvNqwErnlwuq7Y3xBe4eg==
-  dependencies:
-    "@babel/helper-annotate-as-pure" "^7.18.6"
-    regexpu-core "^5.3.1"
-
-"@babel/helper-create-regexp-features-plugin@^7.22.5":
+"@babel/helper-create-regexp-features-plugin@^7.18.6", "@babel/helper-create-regexp-features-plugin@^7.22.5":
   version "7.22.9"
   resolved "https://registry.yarnpkg.com/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.22.9.tgz#9d8e61a8d9366fe66198f57c40565663de0825f6"
   integrity sha512-+svjVa/tFwsNSG4NEy1h85+HQ5imbT92Q5/bgtS7P0GTQlP8WuFdqsiABmQouhiFGyV66oGxZFpeYHza1rNsKw==
@@ -1241,7 +1226,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.16.7", "@babel/types@^7.18.6", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.6.1", "@babel/types@^7.9.6":
+"@babel/types@^7.0.0", "@babel/types@^7.16.7", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.6.1", "@babel/types@^7.9.6":
   version "7.21.4"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.21.4.tgz#2d5d6bb7908699b3b416409ffd3b5daa25b030d4"
   integrity sha512-rU2oY501qDxE8Pyo7i/Orqma4ziCOrby0/9mvbDUGEfvZjb279Nk9k19e2fiCxHbRRpY2ZyrgW1eq22mvmOIzA==
