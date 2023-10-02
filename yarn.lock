@@ -177,6 +177,21 @@
     "@babel/helper-split-export-declaration" "^7.22.5"
     semver "^6.3.0"
 
+"@babel/helper-create-class-features-plugin@^7.22.11":
+  version "7.22.15"
+  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.22.15.tgz#97a61b385e57fe458496fad19f8e63b63c867de4"
+  integrity sha512-jKkwA59IXcvSaiK2UN45kKwSC9o+KuoXsBDvHvU/7BecYIp8GQ2UwrVvFgJASUT+hBnwJx6MhvMCuMzwZZ7jlg==
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.22.5"
+    "@babel/helper-environment-visitor" "^7.22.5"
+    "@babel/helper-function-name" "^7.22.5"
+    "@babel/helper-member-expression-to-functions" "^7.22.15"
+    "@babel/helper-optimise-call-expression" "^7.22.5"
+    "@babel/helper-replace-supers" "^7.22.9"
+    "@babel/helper-skip-transparent-expression-wrappers" "^7.22.5"
+    "@babel/helper-split-export-declaration" "^7.22.6"
+    semver "^6.3.1"
+
 "@babel/helper-create-class-features-plugin@^7.22.5", "@babel/helper-create-class-features-plugin@^7.22.9":
   version "7.22.9"
   resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.22.9.tgz#c36ea240bb3348f942f08b0fbe28d6d979fab236"
@@ -244,6 +259,13 @@
   integrity sha512-wGjk9QZVzvknA6yKIUURb8zY3grXCcOZt+/7Wcy8O2uctxhplmUPkOdlgoNhmdVee2c92JXbf1xpMtVNbfoxRw==
   dependencies:
     "@babel/types" "^7.22.5"
+
+"@babel/helper-member-expression-to-functions@^7.22.15":
+  version "7.23.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.23.0.tgz#9263e88cc5e41d39ec18c9a3e0eced59a3e7d366"
+  integrity sha512-6gfrPwh7OuT6gZyJZvd6WbTfrqAo7vm4xCzAXOusKqq/vWdKXphTpj5klHKNmRUU6/QRGlBsyU9mAIPaWHlqJA==
+  dependencies:
+    "@babel/types" "^7.23.0"
 
 "@babel/helper-member-expression-to-functions@^7.22.5":
   version "7.22.5"
@@ -969,12 +991,12 @@
     "@babel/helper-plugin-utils" "^7.22.5"
 
 "@babel/plugin-transform-private-property-in-object@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-private-property-in-object/-/plugin-transform-private-property-in-object-7.22.5.tgz#07a77f28cbb251546a43d175a1dda4cf3ef83e32"
-  integrity sha512-/9xnaTTJcVoBtSSmrVyhtSvO3kbqS2ODoh2juEU72c3aYonNF0OMGiaz2gjukyKM2wBBYJP38S4JiE0Wfb5VMQ==
+  version "7.22.11"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-private-property-in-object/-/plugin-transform-private-property-in-object-7.22.11.tgz#ad45c4fc440e9cb84c718ed0906d96cf40f9a4e1"
+  integrity sha512-sSCbqZDBKHetvjSwpyWzhuHkmW5RummxJBVbYLkGkaiTOWGxml7SXt0iWa03bzxFIx7wOj3g/ILRd0RcJKBeSQ==
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.22.5"
-    "@babel/helper-create-class-features-plugin" "^7.22.5"
+    "@babel/helper-create-class-features-plugin" "^7.22.11"
     "@babel/helper-plugin-utils" "^7.22.5"
     "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
 
